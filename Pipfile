@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+azure-identity = "*"
+azure-keyvault-secrets = "*"
+celery = "*"
+redis = "*"
+django-celery-results = "*"
+celery-progress = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
